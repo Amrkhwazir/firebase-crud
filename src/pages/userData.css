@@ -1,0 +1,69 @@
+.mainContainer{
+    width: 100%;
+    min-height: 96vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer{
+    width: 500px;
+    min-height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.childOne{
+width: 100%;
+border: 2px dashed black;
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.title{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.childTwo{
+width: 85%;
+height: 200px;
+background-color: aliceblue;
+border: 2px dashed royalblue;
+position: relative;
+padding: 10px;
+}
+
+.childTwo .titlePara{
+    margin-top: 8px;
+}
+
+.childTwo .blog{
+margin-top: 8px;
+height: 68%;
+}
+
+button{
+    background-color: black;
+    width: 120px;
+    height: 30px;
+    margin-top: 0px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.icons{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+}
